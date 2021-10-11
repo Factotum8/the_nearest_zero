@@ -1,4 +1,4 @@
-def calculate_distances(count: int, cells: list[int]) -> list[int]:
+def calculate_distances(count: int, cells: list[int]) -> list[float]:
     """
     * Заполняем пустой лист result_distances бесконечностями float('inf'). Длина листа как у "улицы".
     * С перового нуля проходим по "улице" в конец, вычисляя расстояния до участков. Записываем в лист result_distances
